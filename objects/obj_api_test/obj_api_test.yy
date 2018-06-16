@@ -92,7 +92,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "10",
             "varName": "num_seeds",
             "varType": 1
         }
