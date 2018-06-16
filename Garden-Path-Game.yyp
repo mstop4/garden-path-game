@@ -471,7 +471,45 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_api_test\/obj_api_test.yy",
+                "resourcePath": "objects\/obj_api_fetcher\/obj_api_fetcher.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ed30fa29-966d-496a-b345-7667b6e154c6",
+            "Value": {
+                "id": "2bb006f3-43bc-4223-bc11-e407c0bd441b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_word_back\/spr_word_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ee942b18-780e-4340-82c5-bfb5ff272951",
+            "Value": {
+                "id": "dea36f78-8f40-4e78-a999-db0a6d491b12",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_word\/obj_word.yy",
                 "resourceType": "GMObject"
             }
         },

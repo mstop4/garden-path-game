@@ -2,7 +2,7 @@
     "id": "ea456094-9084-4ef1-9b95-564687010c24",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_api_test",
+    "name": "obj_api_fetcher",
     "eventList": [
         {
             "id": "d9c2e22d-cabb-4658-9512-da283f7766ce",
@@ -42,16 +42,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 12,
-            "m_owner": "ea456094-9084-4ef1-9b95-564687010c24"
-        },
-        {
-            "id": "34b3c581-1406-4301-8f34-db40ff5e70c3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
             "m_owner": "ea456094-9084-4ef1-9b95-564687010c24"
         },
         {
@@ -95,6 +85,20 @@
             "value": "10",
             "varName": "num_seeds",
             "varType": 1
+        },
+        {
+            "id": "879b7af3-3ca4-4cb4-833e-4e37afc99690",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "max_words",
+            "varType": 0
         }
     ],
     "solid": false,
