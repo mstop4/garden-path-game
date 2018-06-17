@@ -6,7 +6,7 @@ if (ds_map_find_value(async_load, "id") == fetch_seeds) {
 		res = ds_map_find_value(async_load, "result");
 		json = json_decode(res);
 	  
-		ds_list_copy(seeds,json[? "default"]);
+		ds_list_copy(seeds,json[? "seedWords"]);
 	  
 		var num_words = ds_list_size(seeds);
 	  
@@ -25,7 +25,7 @@ else if (ds_map_find_value(async_load, "id") == fetch_related) {
 		res = ds_map_find_value(async_load, "result");
 		json = json_decode(res);
 	  
-		ds_list_copy(seeds,json[? "default"]);
+		ds_list_copy(seeds,json[? "nextWords"]);
 	  
 		var num_words = ds_list_size(seeds);
 	  
