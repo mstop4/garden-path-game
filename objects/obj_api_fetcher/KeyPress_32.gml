@@ -1,3 +1,5 @@
+print("get");
+
 var url;
 	
 if (os_get_config() == "Remote Server")

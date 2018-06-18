@@ -1,8 +1,14 @@
-if (ds_map_find_value(async_load, "id") == fetch_seeds) {
-	instance_destroy(obj_word);
-	ds_list_empty(seeds);
-	
-	if (ds_map_find_value(async_load, "status") == 0) {
+/*print("Stuff");
+print("id: " + string(async_load[? "id"]));
+print("status: " + string(async_load[? "status"]));
+print("result: " + async_load[? "result"]);
+print("http status: " + string(async_load[? "http_status"]));*/
+
+if (async_load[? "id"] == fetch_seeds) {
+	if (async_load[? "status"] == 0) {
+		instance_destroy(obj_word);
+		ds_list_empty(seeds);
+		
 		res = ds_map_find_value(async_load, "result");
 		json = json_decode(res);
 	  
@@ -15,13 +21,17 @@ if (ds_map_find_value(async_load, "id") == fetch_seeds) {
 			w.word = seeds[| i];
 		}
 	}
+	
+	else if (async_load[? "status"] == -1) {
+		show_message_async("Could not connect to server.");
+	}
 }
 
-else if (ds_map_find_value(async_load, "id") == fetch_related) {
-	instance_destroy(obj_word);
-	ds_list_empty(seeds);
-	
-	if (ds_map_find_value(async_load, "status") == 0) {
+else if (async_load[? "id"] == fetch_related) {
+	if (async_load[? "status"] == 0) {
+		instance_destroy(obj_word);
+		ds_list_empty(seeds);
+		
 		res = ds_map_find_value(async_load, "result");
 		json = json_decode(res);
 	  
@@ -33,5 +43,9 @@ else if (ds_map_find_value(async_load, "id") == fetch_related) {
 			var w = instance_create_layer(128,i*40+32,"Instances",obj_word);
 			w.word = seeds[| i];
 		}
+	}
+	
+	else if (async_load[? "status"] == -1) {
+		show_message_async("Could not connect to server.");
 	}
 }
