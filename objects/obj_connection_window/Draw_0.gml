@@ -13,4 +13,11 @@ switch (my_state) {
 		draw_text(room_width/2,300,"Connecting to server...");
 		break;
 		
+	case connectionWindow.error:
+		draw_text(room_width/2,300,"Couldn't connect to the server.\nWould you like to try again?");
+		break;
+		
+	case connectionWindow.success:
+		draw_text(room_width/2,300,"Connection sucessful!");
+		break;
 }
