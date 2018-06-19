@@ -3,5 +3,8 @@
 #macro PORT "3001"
 #macro print show_debug_message
 
-seeds = ds_list_create();
-output_str = "";
+word_list = ds_list_create();
+is_fetching = true;
+
+list_pos = 0;
+list_size = 1;

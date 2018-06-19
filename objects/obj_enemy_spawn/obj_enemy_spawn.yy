@@ -2,7 +2,7 @@
     "id": "ea456094-9084-4ef1-9b95-564687010c24",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_api_fetcher",
+    "name": "obj_enemy_spawn",
     "eventList": [
         {
             "id": "d9c2e22d-cabb-4658-9512-da283f7766ce",
@@ -45,12 +45,12 @@
             "m_owner": "ea456094-9084-4ef1-9b95-564687010c24"
         },
         {
-            "id": "c8593bd6-4043-4eec-87b3-688a41aa666f",
+            "id": "c82481c6-b6d9-4a05-91b3-a40504c71ebd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
+            "enumb": 0,
             "eventtype": 3,
             "m_owner": "ea456094-9084-4ef1-9b95-564687010c24"
         }
@@ -97,7 +97,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "10",
-            "varName": "max_words",
+            "varName": "max_bases",
             "varType": 0
         }
     ],

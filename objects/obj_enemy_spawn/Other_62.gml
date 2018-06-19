@@ -6,20 +6,16 @@ print("http status: " + string(async_load[? "http_status"]));*/
 
 if (async_load[? "id"] == fetch_seeds) {
 	if (async_load[? "status"] == 0) {
-		instance_destroy(obj_word);
-		ds_list_empty(seeds);
+		ds_list_empty(word_list);
 		
 		res = ds_map_find_value(async_load, "result");
 		json = json_decode(res);
 	  
-		ds_list_copy(seeds,json[? "seedWords"]);
+		ds_list_copy(word_list,json[? "seedWords"]);
 	  
-		var num_words = ds_list_size(seeds);
-	  
-		for (var i=0; i<num_words; i++) {
-			var w = instance_create_layer(128,i*40+32,"Instances",obj_word);
-			w.word = seeds[| i];
-		}
+		list_pos = 0;
+		list_size = ds_list_size(word_list);
+		is_fetching = false;
 	}
 	
 	else if (async_load[? "status"] == -1) {
@@ -27,22 +23,22 @@ if (async_load[? "id"] == fetch_seeds) {
 	}
 }
 
-else if (async_load[? "id"] == fetch_related) {
+else if (async_load[? "id"] == fetch_next) {
 	if (async_load[? "status"] == 0) {
-		instance_destroy(obj_word);
-		ds_list_empty(seeds);
+		ds_list_empty(word_list);
 		
 		res = ds_map_find_value(async_load, "result");
 		json = json_decode(res);
 	  
-		ds_list_copy(seeds,json[? "nextWords"]);
+		ds_list_copy(word_list,json[? "nextWords"]);
 	  
-		var num_words = ds_list_size(seeds);
+		list_pos = 0;
+		list_size = ds_list_size(word_list);
 	  
-		for (var i=0; i<num_words; i++) {
-			var w = instance_create_layer(128,i*40+32,"Instances",obj_word);
-			w.word = seeds[| i];
-		}
+		// update enemies
+		update_words(obj_base,id);
+		
+		is_fetching = false;
 	}
 	
 	else if (async_load[? "status"] == -1) {

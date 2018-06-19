@@ -1,4 +1,6 @@
 my_state = connectionWindow.closed;
+server_connect = -1;
+
 start_button = instance_create_layer(room_width/2,400,"Instances",obj_button);
 ok_button = instance_create_layer(room_width/2,400,"Instances",obj_button);
 yes_button = instance_create_layer(room_width/2-300,400,"Instances",obj_button);

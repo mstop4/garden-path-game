@@ -1,38 +1,38 @@
 {
-    "id": "ee942b18-780e-4340-82c5-bfb5ff272951",
+    "id": "3a6fe976-9771-49a3-b38c-6959facd8a00",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_word",
+    "name": "obj_base",
     "eventList": [
         {
-            "id": "6c2401bb-1d18-4c69-8980-f99c9ea050d3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "ee942b18-780e-4340-82c5-bfb5ff272951"
-        },
-        {
-            "id": "3c10546f-b145-4853-9903-b51bc95c379a",
+            "id": "70bb91a1-7aba-460c-a959-fc38af396e3d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 7,
             "eventtype": 6,
-            "m_owner": "ee942b18-780e-4340-82c5-bfb5ff272951"
+            "m_owner": "3a6fe976-9771-49a3-b38c-6959facd8a00"
         },
         {
-            "id": "e8482279-bb74-49e4-a690-47f385174d71",
+            "id": "fffdd004-7f1c-4788-afd2-bbd680109239",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "ee942b18-780e-4340-82c5-bfb5ff272951"
+            "m_owner": "3a6fe976-9771-49a3-b38c-6959facd8a00"
+        },
+        {
+            "id": "f3327689-e072-4884-8354-13ee484d9828",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "3a6fe976-9771-49a3-b38c-6959facd8a00"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,7 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "d7229439-96e7-4023-9f26-1e16f760732d",
+            "id": "b5ff8228-be31-49e2-9bfe-c6e0e05e382d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -62,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"\"",
+            "value": "\"foo\"",
             "varName": "word",
             "varType": 2
         }
