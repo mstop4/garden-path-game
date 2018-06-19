@@ -1,0 +1,1 @@
+speed = min(max_speed, speed + accel);

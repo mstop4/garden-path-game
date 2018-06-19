@@ -1,0 +1,1 @@
+direction = (direction + turn_speed) mod 360;
