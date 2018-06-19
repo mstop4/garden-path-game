@@ -3,7 +3,7 @@ if (!disabled) {
 		disabled = true;
 	}
 	with (obj_enemy_spawn) {	
-		fetch_next = http_get_ex("/next/json?query=" + other.word + "&limit=" + string(num_seeds));
+		fetch_next = http_get_ex("/next/json?query=" + other.word + "&limit=" + string(max_bases));
 		is_fetching = true;
 	}
 

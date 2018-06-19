@@ -6,18 +6,18 @@ draw_set_color(c_white);
 switch (my_state) {
 
 	case connectionWindow.prompt:
-		draw_text(room_width/2,300,"This game requires an internet connection\nWould you like to connect to the server now?");
+		draw_text(room_width/2,150,"This game requires an internet connection\nWould you like to connect to the server now?");
 		break;
 		
 	case connectionWindow.connecting:
-		draw_text(room_width/2,300,"Connecting to server...");
+		draw_text(room_width/2,150,"Connecting to server...");
 		break;
 		
 	case connectionWindow.error:
-		draw_text(room_width/2,300,"Couldn't connect to the server.\nWould you like to try again?");
+		draw_text(room_width/2,150,"Couldn't connect to the server.\nWould you like to try again?");
 		break;
 		
 	case connectionWindow.success:
-		draw_text(room_width/2,300,"Connection sucessful!");
+		draw_text(room_width/2,150,"Connection sucessful!");
 		break;
 }
