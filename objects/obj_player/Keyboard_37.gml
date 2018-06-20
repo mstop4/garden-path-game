@@ -1,1 +1,1 @@
-direction = (direction + turn_speed) mod 360;
+dir = (dir + turn_speed) mod 360;

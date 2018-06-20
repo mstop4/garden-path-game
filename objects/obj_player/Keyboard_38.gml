@@ -1,1 +1,1 @@
-speed = min(max_speed, speed + accel);
+motion_add(dir,accel);
