@@ -1,0 +1,1 @@
+camera_set_view_pos(view_camera,obj_player.x - view_width/2,obj_player.y - view_height/2);
