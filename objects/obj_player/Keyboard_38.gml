@@ -1,1 +1,1 @@
-motion_add(dir,accel);
+dt_motion_add(dir,accel);

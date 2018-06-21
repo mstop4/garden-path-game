@@ -2,12 +2,15 @@
 /// @arg enemy_type
 /// @arg spawner_id
 
-with (argument[0]) {
-	if (argument[1].list_size == 0)
+var _enemy_type = argument[0];
+var _spawner_id = argument[1];
+
+with (_enemy_type) {
+	if (_spawner_id.list_size == 0)
 		word = "undefined";
 	else {
-		word = argument[1].word_list[| argument[1].list_pos];
-		argument[1].list_pos = (argument[1].list_pos + 1) mod argument[1].list_size;
+		word = _spawner_id.word_list[| _spawner_id.list_pos];
+		_spawner_id.list_pos = (_spawner_id.list_pos + 1) mod _spawner_id.list_size;
 	}
 	
 	disabled = false;
