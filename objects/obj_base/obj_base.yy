@@ -62,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"foo\"",
+            "value": "foo",
             "varName": "word",
             "varType": 2
         },

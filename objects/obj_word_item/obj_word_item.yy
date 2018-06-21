@@ -1,29 +1,39 @@
 {
-    "id": "1d9c4225-349d-4c0f-9091-2fd765aa2dd2",
+    "id": "3552ce28-1d39-413c-aad6-06f685d2796d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_shot",
+    "name": "obj_word_item",
     "eventList": [
         {
-            "id": "f7c58df5-1887-4e26-a8e5-ef663847966b",
+            "id": "1aed53c7-fc08-42e0-b5dd-80976ea47ddb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "3552ce28-1d39-413c-aad6-06f685d2796d"
+        },
+        {
+            "id": "4360d4ac-ec0f-4b44-a54a-f14ed6dcaa9b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "1d9c4225-349d-4c0f-9091-2fd765aa2dd2"
+            "m_owner": "3552ce28-1d39-413c-aad6-06f685d2796d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "a0cde3ca-29ce-47a9-b2b0-974e8de57a3f",
+            "id": "fea48cab-0273-4200-b5cc-dbb9036494d8",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "81dc62a8-9073-4291-b6e4-baef4d1b547f",
             "propertyId": "a13dc882-ca5e-45e5-83b9-ea87d36e8eda",
-            "value": "8"
+            "value": "2"
         }
     ],
     "parentObjectId": "81dc62a8-9073-4291-b6e4-baef4d1b547f",
@@ -42,7 +52,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "4876a526-82e0-42ed-8664-a48e01e68766",
+            "id": "91fa3422-48d3-408c-8083-3fbe7b8ff538",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -51,40 +61,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "8",
-            "varName": "my_init_speed",
-            "varType": 0
-        },
-        {
-            "id": "03333c36-a928-4d67-b934-1a887ad77ace",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1",
-            "varName": "strength",
-            "varType": 1
-        },
-        {
-            "id": "4fefad4e-79a1-40e4-abb8-f3a814ff4407",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "60",
-            "varName": "my_lifespan",
-            "varType": 1
+            "value": "foo",
+            "varName": "word",
+            "varType": 2
         }
     ],
     "solid": false,
-    "spriteId": "e5e43bcc-cbcc-46c7-bacb-4a061c15f5a4",
+    "spriteId": "a64cb6fa-f00b-475e-afcb-a593f54bddd0",
     "visible": true
 }
