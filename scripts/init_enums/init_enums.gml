@@ -5,3 +5,9 @@ enum connectionWindow {
 	success,
 	error
 }
+
+enum team {
+	player,
+	enemy,
+	neutral
+}

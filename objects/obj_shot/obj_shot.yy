@@ -64,6 +64,20 @@
             "value": "8",
             "varName": "my_init_speed",
             "varType": 0
+        },
+        {
+            "id": "03333c36-a928-4d67-b934-1a887ad77ace",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "strength",
+            "varType": 1
         }
     ],
     "solid": false,

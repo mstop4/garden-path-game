@@ -5,16 +5,6 @@
     "name": "obj_base",
     "eventList": [
         {
-            "id": "70bb91a1-7aba-460c-a959-fc38af396e3d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "3a6fe976-9771-49a3-b38c-6959facd8a00"
-        },
-        {
             "id": "fffdd004-7f1c-4788-afd2-bbd680109239",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,6 +22,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
+            "m_owner": "3a6fe976-9771-49a3-b38c-6959facd8a00"
+        },
+        {
+            "id": "c8718f72-8f8a-4376-b581-386223ef7af3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "1d9c4225-349d-4c0f-9091-2fd765aa2dd2",
+            "enumb": 0,
+            "eventtype": 4,
             "m_owner": "3a6fe976-9771-49a3-b38c-6959facd8a00"
         }
     ],
@@ -65,6 +65,20 @@
             "value": "\"foo\"",
             "varName": "word",
             "varType": 2
+        },
+        {
+            "id": "887eedb1-7b82-4f10-aba4-8f1860c84ecf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "my_hp_max",
+            "varType": 1
         }
     ],
     "solid": false,
