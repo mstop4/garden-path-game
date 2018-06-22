@@ -16,6 +16,7 @@ if (async_load[? "id"] == fetch_seeds) {
 		}
 		else {
 			print("Connection error");
+			with (obj_base) disabled = false;
 		}
 		
 		list_pos = 0;
@@ -35,7 +36,7 @@ else if (async_load[? "id"] == fetch_next) {
 		res = ds_map_find_value(async_load, "result");
 		json = json_decode(res);
 	  
-		if (!is_undefined(json[? "seedWords"])) {
+		if (!is_undefined(json[? "nextWords"])) {
 			ds_list_copy(word_list,json[? "nextWords"]);
 	  
 			// update enemies
@@ -43,6 +44,7 @@ else if (async_load[? "id"] == fetch_next) {
 		} 
 		else {
 			print("Connection error");
+			with (obj_base) disabled = false;
 		}
 		
 		list_pos = 0;
