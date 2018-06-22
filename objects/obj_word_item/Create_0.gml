@@ -1,8 +1,6 @@
-var spd = 2;
-
 dir = random(360);
-x_speed = lengthdir_x(spd, dir);
-y_speed = lengthdir_y(spd, dir);
+x_speed = lengthdir_x(max_speed, dir);
+y_speed = lengthdir_y(max_speed, dir);
 
 dt_init_alarms();
 

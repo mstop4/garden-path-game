@@ -33,7 +33,7 @@
             "mvc": "1.0",
             "objectId": "81dc62a8-9073-4291-b6e4-baef4d1b547f",
             "propertyId": "a13dc882-ca5e-45e5-83b9-ea87d36e8eda",
-            "value": "2"
+            "value": "1"
         }
     ],
     "parentObjectId": "81dc62a8-9073-4291-b6e4-baef4d1b547f",

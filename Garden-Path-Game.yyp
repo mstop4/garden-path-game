@@ -1125,6 +1125,25 @@
             }
         },
         {
+            "Key": "f5688ae1-3d6a-49d2-8bc0-9ff33eb15458",
+            "Value": {
+                "id": "253a07f0-e536-4e35-8e66-f71478d06fef",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/fnt_small\/fnt_small.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "f74fb27b-8dd0-4a5d-8146-c6d0462c2163",
             "Value": {
                 "id": "ca1fbd79-3f33-4a6d-a7a5-5bb29d6ce212",
