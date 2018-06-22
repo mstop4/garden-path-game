@@ -11,8 +11,13 @@ if (async_load[? "id"] == fetch_seeds) {
 		res = ds_map_find_value(async_load, "result");
 		json = json_decode(res);
 	  
-		ds_list_copy(word_list,json[? "seedWords"]);
-	  
+		if (!is_undefined(json[? "seedWords"])) {
+			ds_list_copy(word_list,json[? "seedWords"]);
+		}
+		else {
+			print("Connection error");
+		}
+		
 		list_pos = 0;
 		list_size = ds_list_size(word_list);
 		is_fetching = false;
@@ -30,14 +35,18 @@ else if (async_load[? "id"] == fetch_next) {
 		res = ds_map_find_value(async_load, "result");
 		json = json_decode(res);
 	  
-		ds_list_copy(word_list,json[? "nextWords"]);
+		if (!is_undefined(json[? "seedWords"])) {
+			ds_list_copy(word_list,json[? "nextWords"]);
 	  
+			// update enemies
+			update_words(obj_base,id);
+		} 
+		else {
+			print("Connection error");
+		}
+		
 		list_pos = 0;
 		list_size = ds_list_size(word_list);
-	  
-		// update enemies
-		update_words(obj_base,id);
-		
 		is_fetching = false;
 	}
 	

@@ -4,10 +4,10 @@ if (!is_fetching && !ds_list_empty(word_list) && instance_number(obj_base) < max
 	list_pos = (list_pos + 1) mod list_size;
 	
 	with (b) {
-		while (place_meeting(x,y,obj_base) || place_meeting(x,y,obj_player)) {
-			x = irandom_range(0,room_width);
-			y = irandom_range(0,room_height);
-		}
+		do {
+		x = irandom_range(0,room_width);
+		y = irandom_range(0,room_height);
+		} until (!place_meeting(x,y,obj_base) && !place_meeting(x,y,obj_player))
 	}
 }
 	
