@@ -1,8 +1,8 @@
 /// @arg other_id
 var _other = argument[0];
 
-x = xprevious;
-y = yprevious;
+//x = xprevious;
+//y = yprevious;
 
 var m1 = mass;
 var m2 = _other.mass;
