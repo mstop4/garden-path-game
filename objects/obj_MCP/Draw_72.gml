@@ -1,0 +1,1 @@
+draw_sprite_tiled(bck_space,0,bg_disp_x,bg_disp_y);
