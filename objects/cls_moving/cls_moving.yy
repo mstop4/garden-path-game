@@ -113,6 +113,20 @@
             "value": "4",
             "varName": "max_speed",
             "varType": 0
+        },
+        {
+            "id": "fb241ce1-91d1-4a2e-8062-15798499f460",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "mass",
+            "varType": 0
         }
     ],
     "solid": false,

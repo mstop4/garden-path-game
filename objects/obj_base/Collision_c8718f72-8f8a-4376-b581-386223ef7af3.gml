@@ -1,1 +1,1 @@
-col_base_shot(other);
+col_base_shot(other.id);
