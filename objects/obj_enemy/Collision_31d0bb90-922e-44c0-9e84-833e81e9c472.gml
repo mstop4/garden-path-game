@@ -1,0 +1,1 @@
+bounce_off(other.id);
