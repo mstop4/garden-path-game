@@ -7,7 +7,7 @@ for (var i=-1; i<=1; i++) {
 		if (i == 0 && j == 0)
 			continue;
 		else {
-			var c = instance_create_layer(x,y,"Instances", _clone);
+			var c = instance_create_layer(x+room_width*i,y+room_height*j,"Instances", _clone);
 			c.my_owner = id;
 			c.x_offset = i;
 			c.y_offset = j;
