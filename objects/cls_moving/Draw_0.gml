@@ -3,6 +3,6 @@ for (var i=-1; i<=1; i++) {
 		var cur_x = x+i*room_width;
 		var cur_y = y+j*room_height;
 		
-		draw_sprite_ext(sprite_index,image_index,cur_x,cur_y,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
+		draw_sprite_ext(sprite_index,image_index,cur_x,cur_y,image_xscale,image_yscale,dir,image_blend,image_alpha);
 	}
 }

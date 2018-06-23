@@ -346,6 +346,25 @@
             }
         },
         {
+            "Key": "345558c3-d17e-4fc3-8cf1-def78e8f2e93",
+            "Value": {
+                "id": "386ad929-91c5-4455-bad4-48b0a280dc17",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_enemy_clone\/obj_enemy_clone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "34658adf-a15d-48aa-a2e2-edd9a71bd566",
             "Value": {
                 "id": "675de29d-0986-450a-9720-a253b47ba29c",
