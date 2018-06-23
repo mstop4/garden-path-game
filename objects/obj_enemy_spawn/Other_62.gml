@@ -11,12 +11,16 @@ if (async_load[? "id"] == fetch_seeds) {
 		res = ds_map_find_value(async_load, "result");
 		json = json_decode(res);
 	  
-		if (!is_undefined(json[? "seedWords"])) {
-			ds_list_copy(word_list,json[? "seedWords"]);
-		}
-		else {
-			print("Connection error");
+		if (is_undefined(json[? "status"])) {
+			print("Can't connect with server");
 			with (obj_base) disabled = false;
+		}
+		else if (json[? "status"] == "error") {
+			print("Connection error: " + json[? "message"]);
+			with (obj_base) disabled = false;
+		}
+		else if (json[? "status"] == "ok") {
+			ds_list_copy(word_list,json[? "seedWords"]);
 		}
 		
 		list_pos = 0;
@@ -35,16 +39,20 @@ else if (async_load[? "id"] == fetch_next) {
 		
 		res = ds_map_find_value(async_load, "result");
 		json = json_decode(res);
-	  
-		if (!is_undefined(json[? "nextWords"])) {
+		
+		if (is_undefined(json[? "status"])) {
+			print("Can't connect with server");
+			with (obj_base) disabled = false;
+		}
+		else if (json[? "status"] == "error") {
+			print("Connection error: " + json[? "message"]);
+			with (obj_base) disabled = false;
+		}
+		else if (json[? "status"] == "ok") {
 			ds_list_copy(word_list,json[? "nextWords"]);
 	  
 			// update enemies
 			update_words(obj_base,id);
-		} 
-		else {
-			print("Connection error");
-			with (obj_base) disabled = false;
 		}
 		
 		list_pos = 0;
