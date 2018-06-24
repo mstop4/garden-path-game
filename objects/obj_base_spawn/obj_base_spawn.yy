@@ -88,7 +88,7 @@
             "resourceFilter": 1023,
             "value": "20",
             "varName": "num_next",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "879b7af3-3ca4-4cb4-833e-4e37afc99690",
@@ -102,7 +102,7 @@
             "resourceFilter": 1023,
             "value": "10",
             "varName": "max_bases",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "ce951263-4ade-40a7-8a4e-08ac085400b6",
