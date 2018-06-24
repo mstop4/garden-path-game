@@ -5,7 +5,8 @@ if (_other.my_owner != team.enemy) {
 		my_hp -= _other.strength;
 		if (!active_spawn) {
 			active_spawn = true;
-			dt_alarm[0] = obj_base_spawn.cur_esd_active;
+			can_spawn = true;
+			//dt_alarm[0] = obj_base_spawn.cur_esd_active;
 		}
 		
 		if (my_hp <= 0) {

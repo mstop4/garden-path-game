@@ -124,7 +124,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "128",
+            "value": "200",
             "varName": "detect_distance",
             "varType": 0
         }
