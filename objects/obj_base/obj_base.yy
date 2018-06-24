@@ -43,6 +43,16 @@
             "enumb": 0,
             "eventtype": 12,
             "m_owner": "3a6fe976-9771-49a3-b38c-6959facd8a00"
+        },
+        {
+            "id": "38f779ec-a0ea-452c-a0aa-2d0f2c3049e0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "3a6fe976-9771-49a3-b38c-6959facd8a00"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -86,9 +96,37 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "8",
             "varName": "my_hp_max",
             "varType": 1
+        },
+        {
+            "id": "d607e917-694e-4774-aa7c-e68398677c74",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "my_max_enemies",
+            "varType": 1
+        },
+        {
+            "id": "5a5982fb-eb55-4732-9e9d-3dea869a5380",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "128",
+            "varName": "detect_distance",
+            "varType": 0
         }
     ],
     "solid": false,

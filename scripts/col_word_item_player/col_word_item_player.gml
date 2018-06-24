@@ -3,7 +3,7 @@ var _self = id;
 with (obj_base) {
 	disabled = true;
 }
-with (obj_enemy_spawn) {	
+with (obj_base_spawn) {	
 	fetch_next = http_get_ex("/next/json?query=" + _self.word + "&limit=" + string(num_next));
 	is_fetching = true;
 }

@@ -15,5 +15,6 @@ for (var i=-1; i<=1; i++) {
 		draw_text(cur_x,cur_y,word);
 	}
 }
+draw_text(x,y-32,string(dt_alarm[0]));
 
 draw_set_alpha(1);

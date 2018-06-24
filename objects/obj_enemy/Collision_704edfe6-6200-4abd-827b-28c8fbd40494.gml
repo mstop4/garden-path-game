@@ -1,0 +1,1 @@
+col_enemy_shot(other.id);
