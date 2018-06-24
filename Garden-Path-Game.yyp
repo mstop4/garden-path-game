@@ -19,7 +19,8 @@
                 "Value": {
                     "configDeltas": [
                         "inherited",
-                        "Local Server"
+                        "Local Server",
+                        "Remote Server"
                     ],
                     "id": "bde36b81-b6d4-4075-b787-4e354a6c55f6",
                     "resourcePath": "options\/main\/options_main.yy",
