@@ -8,3 +8,6 @@ display_set_gui_maximize(2,2,0,0);
 
 bg_layer = layer_get_id("Background");
 bg_t = 0;
+
+audio_stop_all();
+audio_play_sound(mus_demo,100,true);

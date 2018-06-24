@@ -2,6 +2,7 @@ globalvar dt_scale;
 text = "";
 formatted_text = "";
 dt_scale = 1;
+is_paused = false;
 
 bg_disp_x = 0;
 bg_disp_y = 0;
