@@ -82,6 +82,14 @@
             }
         },
         {
+            "Key": "1a1e0516-591f-4de4-8159-13913f9d6192",
+            "Value": {
+                "id": "dd2c8619-e346-44f3-9a89-734ffec2397f",
+                "resourcePath": "fonts\\fnt_title\\fnt_title.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "1a990677-9a81-40c5-8261-2742bc9eb756",
             "Value": {
                 "id": "2d15bd3c-7b95-4696-aacb-5e5c0fa78587",
@@ -580,9 +588,6 @@
         {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
-                "configDeltas": [
-                    "Local Server"
-                ],
                 "id": "1c50498e-33ba-423a-ab61-48c744a73221",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
@@ -634,6 +639,14 @@
                 "id": "19b1dcd6-4971-4904-b299-62a935f62531",
                 "resourcePath": "rooms\\room_demo\\room_demo.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "dd1bac11-8960-4e19-bf70-432d33b7f658",
+            "Value": {
+                "id": "3c908079-98ca-4572-9408-3130c948730c",
+                "resourcePath": "sounds\\snd_collect_word\\snd_collect_word.yy",
+                "resourceType": "GMSound"
             }
         },
         {

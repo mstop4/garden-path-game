@@ -17,4 +17,5 @@ if (!disabled) {
 	obj_MCP.formatted_text = dialogue_line_breaker(obj_MCP.text + " ",608,fnt_default);
 
 	instance_destroy();
+	audio_play_sound(snd_collect_word,50,false);
 }

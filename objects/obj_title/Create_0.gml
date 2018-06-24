@@ -5,3 +5,6 @@
 
 randomize();
 display_set_gui_maximize(2,2,0,0);
+
+bg_layer = layer_get_id("Background");
+bg_t = 0;

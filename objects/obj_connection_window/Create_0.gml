@@ -24,3 +24,5 @@ no_button.my_script = cw_close;
 instance_deactivate_object(yes_button);
 instance_deactivate_object(no_button);
 instance_deactivate_object(ok_button);
+
+spinner_angle = 0;
