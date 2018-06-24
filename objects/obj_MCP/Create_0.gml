@@ -1,5 +1,6 @@
 globalvar dt_scale;
 text = "";
+formatted_text = "";
 dt_scale = 1;
 
 bg_disp_x = 0;

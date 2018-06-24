@@ -10,7 +10,11 @@ if (!disabled) {
 		is_fetching = true;
 	}
 
-	obj_MCP.text += word + " ";
+	if (obj_MCP.text == "")
+		obj_MCP.text += word;
+	else
+		obj_MCP.text += " " + word;
+	obj_MCP.formatted_text = dialogue_line_breaker(obj_MCP.text + " ",608,fnt_default);
 
 	instance_destroy();
 }

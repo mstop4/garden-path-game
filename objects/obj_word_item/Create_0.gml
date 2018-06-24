@@ -8,3 +8,7 @@ dt_init_alarms();
 
 dt_alarm[0] = 600;
 dt_alarm_scr[0] = obj_word_item_alarm0;
+
+emit = part_emitter_create(obj_particles.ps);
+part_emitter_region(obj_particles.ps,emit,x,x,y,y,ps_shape_rectangle,ps_distr_linear);
+part_emitter_stream(obj_particles.ps,emit,obj_particles.part_sparks,part_rate);

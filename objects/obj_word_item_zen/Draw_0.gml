@@ -1,5 +1,6 @@
-if (disabled) draw_set_alpha(0.5);
-else draw_set_alpha(1);
+var _color;
+if (disabled) _color = c_gray;
+else _color = c_white;
 
 draw_set_font(fnt_small);
 draw_set_halign(fa_center);
@@ -11,9 +12,7 @@ for (var i=-1; i<=1; i++) {
 		var cur_x = x+i*room_width;
 		var cur_y = y+j*room_height;
 		
-		draw_sprite_ext(sprite_index,image_index,cur_x,cur_y,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
-		draw_text(cur_x,cur_y,word);
+		//draw_sprite_ext(sprite_index,image_index,cur_x,cur_y,image_xscale,image_yscale,image_angle,image_blend,_alpha);
+		draw_outlined_text(cur_x,cur_y,word,1,1,0,_color,c_black,1,1,8);
 	}
 }
-
-draw_set_alpha(1);
