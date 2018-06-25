@@ -6,7 +6,7 @@
 
 ***For [PROCJAM: Summer 2018](https://itch.io/jam/procjam)***
 
-Server repo: https://github.com/mstop4/gardenpath-server
+#### Server repo: https://github.com/mstop4/gardenpath-server
 
 ## About
 
