@@ -1,5 +1,7 @@
 # The Garden Path (Demo) - Client
 
+!["Screenshot 1"](https://github.com/mstop4/garden-path-game/blob/master/screenshots/screen1.png?raw=true)
+
 ### An attempt at space poetry.
 
 ***For [PROCJAM: Summer 2018](https://itch.io/jam/procjam)***
