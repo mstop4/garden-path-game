@@ -63,6 +63,46 @@
             "enumb": 73,
             "eventtype": 8,
             "m_owner": "6947b04c-9704-4fc7-a63f-ea6910cc4c18"
+        },
+        {
+            "id": "3c5d4dde-6053-40c4-a66b-323626bdbaa8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "6947b04c-9704-4fc7-a63f-ea6910cc4c18"
+        },
+        {
+            "id": "f3cd1995-4487-4a90-a1e0-dea45fce1771",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 12,
+            "m_owner": "6947b04c-9704-4fc7-a63f-ea6910cc4c18"
+        },
+        {
+            "id": "fd965713-2ed5-4bc0-83dd-f9e0fdca7f4c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 38,
+            "eventtype": 9,
+            "m_owner": "6947b04c-9704-4fc7-a63f-ea6910cc4c18"
+        },
+        {
+            "id": "4012cf30-ff58-45aa-999a-c0ffc7c7d85d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 38,
+            "eventtype": 10,
+            "m_owner": "6947b04c-9704-4fc7-a63f-ea6910cc4c18"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -112,6 +152,20 @@
             "value": "5",
             "varName": "turn_speed",
             "varType": 0
+        },
+        {
+            "id": "236182ef-86b2-44c2-9649-f7c6564df1a9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "exhaust_rate",
+            "varType": 1
         }
     ],
     "solid": false,

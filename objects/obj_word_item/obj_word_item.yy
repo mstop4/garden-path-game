@@ -33,6 +33,26 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "3552ce28-1d39-413c-aad6-06f685d2796d"
+        },
+        {
+            "id": "5439a7db-d649-43e5-a46c-05f80116274c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 12,
+            "m_owner": "3552ce28-1d39-413c-aad6-06f685d2796d"
+        },
+        {
+            "id": "e573495b-f6cc-48fb-95dd-09d817e15f56",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "3552ce28-1d39-413c-aad6-06f685d2796d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -74,6 +94,20 @@
             "value": "foo",
             "varName": "word",
             "varType": 2
+        },
+        {
+            "id": "1f6dc45c-0326-4681-b9f8-41afa8347775",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-4",
+            "varName": "part_rate",
+            "varType": 1
         }
     ],
     "solid": false,

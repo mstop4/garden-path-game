@@ -19,7 +19,8 @@
                 "Value": {
                     "configDeltas": [
                         "inherited",
-                        "Local Server"
+                        "Local Server",
+                        "Remote Server"
                     ],
                     "id": "bde36b81-b6d4-4075-b787-4e354a6c55f6",
                     "resourcePath": "options\/main\/options_main.yy",
@@ -50,6 +51,14 @@
             }
         },
         {
+            "Key": "0493f526-7687-456b-9898-6d111f115a39",
+            "Value": {
+                "id": "f8f45e87-cbc8-49c8-b0a2-19f8df5fb19b",
+                "resourcePath": "sounds\\snd_reset\\snd_reset.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "05339301-429c-4b40-82e8-3cc78372f420",
             "Value": {
                 "id": "ec3c7881-6373-4018-ba18-c779380232c9",
@@ -71,6 +80,22 @@
                 "id": "0182e1d8-23a2-4b5b-b584-d7224fbdb8bd",
                 "resourcePath": "objects\/obj_base_clone\/obj_base_clone.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "13188a23-0ded-457b-8ab8-68e92323d764",
+            "Value": {
+                "id": "c474ddaa-5432-4474-9b7f-efd88c6eba42",
+                "resourcePath": "scripts\\draw_outlined_text\\draw_outlined_text.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1a1e0516-591f-4de4-8159-13913f9d6192",
+            "Value": {
+                "id": "dd2c8619-e346-44f3-9a89-734ffec2397f",
+                "resourcePath": "fonts\\fnt_title\\fnt_title.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -210,6 +235,14 @@
             }
         },
         {
+            "Key": "3e9df8ff-79ce-46fb-8a1d-ea80be2620b2",
+            "Value": {
+                "id": "8cf34fc8-dfcd-4efd-b6c8-a5cbceaac272",
+                "resourcePath": "objects\\obj_word_item_zen_clone\\obj_word_item_zen_clone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "40419b03-6712-4d01-ab3a-43a2d790f30f",
             "Value": {
                 "id": "7f0e709c-c144-4412-a223-7acb180cc857",
@@ -266,11 +299,27 @@
             }
         },
         {
+            "Key": "4ee6e389-98f4-4a5f-8ee3-28f9c7af4408",
+            "Value": {
+                "id": "bf91e618-4ebd-411c-a37f-cf0b9044f40a",
+                "resourcePath": "views\\fd14c145-79c8-4e5c-967a-fc1b7520e628-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "52f03636-f55d-4795-8413-4a8979ece541",
             "Value": {
                 "id": "2169fcdf-5bbb-4d90-93dc-32c55a0c30ea",
                 "resourcePath": "views\/52f03636-f55d-4795-8413-4a8979ece541.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "563c39ec-36f9-4d01-a3d3-9ad5a4c4fa06",
+            "Value": {
+                "id": "78dbe9d2-2d2b-4d4f-ac54-89cdd2edf573",
+                "resourcePath": "scripts\\dialogue_line_breaker\\dialogue_line_breaker.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -319,6 +368,14 @@
                 "id": "a1053287-2276-451f-8ae9-fb7a8c490d56",
                 "resourcePath": "scripts\/update_words\/update_words.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "68ebc2ef-0ab6-43dc-9f65-bbf99af0f39d",
+            "Value": {
+                "id": "8dfe70c0-511f-43d1-af32-badfab042d39",
+                "resourcePath": "sounds\\mus_demo\\mus_demo.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -418,6 +475,30 @@
             }
         },
         {
+            "Key": "858255c2-6d38-4443-8938-256ce2270a26",
+            "Value": {
+                "id": "c37ba3be-eb0d-4c61-bd68-35ab5ddd1982",
+                "resourcePath": "scripts\\url_encode\\url_encode.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "87346a65-ba40-4ef5-8192-7b95446f1ee6",
+            "Value": {
+                "id": "916933d5-7aed-477f-9b1a-1897776315a6",
+                "resourcePath": "objects\\obj_particles\\obj_particles.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "87730d6e-cf42-4d5c-9a52-1ecfa872d8bd",
+            "Value": {
+                "id": "94d43ab7-e833-4c7f-9be3-dd209511bd62",
+                "resourcePath": "scripts\\col_word_item_zen_player\\col_word_item_zen_player.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8f3dfb79-7e2f-4e72-b460-2cebfd672a4e",
             "Value": {
                 "id": "a7fad0d0-0131-4bc3-a4b6-aff81d932703",
@@ -514,11 +595,16 @@
             }
         },
         {
+            "Key": "cc113628-2d07-4591-a62f-8cc90313f218",
+            "Value": {
+                "id": "df7cb6c9-3854-47f0-946c-34786fc95a7d",
+                "resourcePath": "objects\\obj_word_item_spawn\\obj_word_item_spawn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
-                "configDeltas": [
-                    "Local Server"
-                ],
                 "id": "1c50498e-33ba-423a-ab61-48c744a73221",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
@@ -557,11 +643,35 @@
             }
         },
         {
+            "Key": "d957128c-1d6f-4854-a399-1bb9264586ee",
+            "Value": {
+                "id": "996beece-2dcc-4b0e-8027-8c860b7b7e66",
+                "resourcePath": "sounds\\snd_click\\snd_click.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "dc4f20aa-8a68-4d0c-aa1b-7a6f59f0f9f4",
             "Value": {
                 "id": "78d08e65-f142-40dc-8f37-40b8fe23d01c",
                 "resourcePath": "views\/dc4f20aa-8a68-4d0c-aa1b-7a6f59f0f9f4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dc667288-1606-4c5f-8a96-2dd00d9ea3b2",
+            "Value": {
+                "id": "19b1dcd6-4971-4904-b299-62a935f62531",
+                "resourcePath": "rooms\\room_demo\\room_demo.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "dd1bac11-8960-4e19-bf70-432d33b7f658",
+            "Value": {
+                "id": "3c908079-98ca-4572-9408-3130c948730c",
+                "resourcePath": "sounds\\snd_collect_word\\snd_collect_word.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -586,6 +696,14 @@
                 "id": "09521b38-aefc-478b-8571-af6a08ecd672",
                 "resourcePath": "sprites\/spr_shot_player\/spr_shot_player.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e6cb4678-532a-444e-82c9-439443152d04",
+            "Value": {
+                "id": "5a32d8c5-c525-4fc3-b7c7-3665dc50a445",
+                "resourcePath": "objects\\obj_word_item_zen\\obj_word_item_zen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -699,11 +817,15 @@
         "9f1b23ce-29e9-46ff-819f-7e9f546744c8",
         "0168febb-c507-4c48-b200-ec2260277500",
         "1e0c43ff-333f-47a1-9942-6ac69e82c15f",
+        "87730d6e-cf42-4d5c-9a52-1ecfa872d8bd",
         "f74fb27b-8dd0-4a5d-8146-c6d0462c2163",
         "cdcbcb25-d776-4bdc-9e96-df57e4bdded0",
         "3815b7b6-c01b-4832-8262-f63407642ab0",
         "79d30335-e4a7-4737-816f-d88628e2f27b",
-        "08b81df2-c4f1-4b4f-a59e-79994be0e251"
+        "08b81df2-c4f1-4b4f-a59e-79994be0e251",
+        "13188a23-0ded-457b-8ab8-68e92323d764",
+        "563c39ec-36f9-4d01-a3d3-9ad5a4c4fa06",
+        "858255c2-6d38-4443-8938-256ce2270a26"
     ],
     "tutorial": ""
 }

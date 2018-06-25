@@ -8,7 +8,13 @@ with (obj_base_spawn) {
 	is_fetching = true;
 }
 
-obj_MCP.text += word + " ";
+if (obj_MCP.text == "")
+	obj_MCP.text += word;
+else
+	obj_MCP.text += " " + word;
+obj_MCP.formatted_text = dialogue_line_breaker(obj_MCP.text + " ",608,fnt_default);
 
 with (obj_word_item)
 	instance_destroy();
+	
+audio_play_sound(snd_collect_word,50,false);

@@ -1,1 +1,1 @@
-room_goto(room_game);
+room_goto(room_demo);
