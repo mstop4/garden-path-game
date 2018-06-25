@@ -14,12 +14,12 @@ Fly through the cosmos in an attempt to be creative. Powered by the [Datamuse AP
 
 ## Controls
 
-Left/Right - Turn
-Up - Thrusters
-Delete - Restart
-F - Toggle fullscreen
-T - Open Twitter in your browser to share your masterpiece
-Esc - Quit game
+* Left/Right - Turn
+* Up - Thrusters
+* Delete - Restart
+* F - Toggle fullscreen
+* T - Open Twitter in your browser to share your masterpiece
+* Esc - Quit game
 
 ## Stack
 
